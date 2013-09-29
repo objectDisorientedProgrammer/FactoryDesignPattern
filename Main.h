@@ -9,6 +9,6 @@
 
 using namespace std;
 #include <iostream>
-#include "Factory.h"
+#include "BuildingFactory.h"
 
 #endif
