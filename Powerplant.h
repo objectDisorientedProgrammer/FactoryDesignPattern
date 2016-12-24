@@ -13,9 +13,9 @@
 class Powerplant : public Building
 {
 public:
-	Powerplant();
-	~Powerplant();
-	int getSquareFeet();
+    Powerplant();
+    ~Powerplant();
+    int getSquareFeet();
 };
 
 #endif /* POWERPLANT_H_ */

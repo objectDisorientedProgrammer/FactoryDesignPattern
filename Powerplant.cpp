@@ -9,15 +9,15 @@
 
 Powerplant::Powerplant()
 {
-	this->squareFeet = 3460;
+    this->squareFeet = 3460;
 }
 
 Powerplant::~Powerplant()
 {
-	delete this;
+    delete this;
 }
 
 int Powerplant::getSquareFeet()
 {
-	return this->squareFeet;
+    return this->squareFeet;
 }

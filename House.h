@@ -1,7 +1,7 @@
 /*
-	House.h
-	Created September 28, 2013
-	Author: Douglas Chidester
+    House.h
+    Created September 28, 2013
+    Author: Douglas Chidester
 */
 
 #ifndef HOUSE_H
@@ -12,9 +12,9 @@
 class House : public Building
 {
 public:
-	House();
-	~House();
-	int getSquareFeet();
+    House();
+    ~House();
+    int getSquareFeet();
 };
 
 #endif

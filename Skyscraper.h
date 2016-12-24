@@ -13,9 +13,9 @@
 class Skyscraper : public Building
 {
 public:
-	Skyscraper();
-	~Skyscraper();
-	int getSquareFeet();
+    Skyscraper();
+    ~Skyscraper();
+    int getSquareFeet();
 };
 
 #endif /* SKYSCRAPER_H_ */
