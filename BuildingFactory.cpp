@@ -11,7 +11,7 @@ BuildingFactory::BuildingFactory() {}
 
 BuildingFactory::~BuildingFactory()
 {
-	delete this;
+    delete this;
 }
 
 Building* BuildingFactory::createBuilding(char code)

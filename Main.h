@@ -1,7 +1,7 @@
 /*
-	Main.h
-	Created September 28, 2013
-	Author: Douglas Chidester
+    Main.h
+    Created September 28, 2013
+    Author: Douglas Chidester
 */
 
 #ifndef MAIN_H
