@@ -7,8 +7,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-using namespace std;
 #include <iostream>
 #include "BuildingFactory.h"
+
+using std::cout;
+using std::endl;
 
 #endif

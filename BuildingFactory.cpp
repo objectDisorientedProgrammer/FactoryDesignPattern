@@ -11,16 +11,16 @@ BuildingFactory::BuildingFactory() {}
 
 BuildingFactory::~BuildingFactory()
 {
-    delete this;
+    //delete this; // causing seg fault...
 }
 
-Building* BuildingFactory::createBuilding(char code)
+Building* BuildingFactory::createBuilding(Building_t code)
 {
 	switch(code)
 	{
-		case 'h': return new House;
-		case 'p': return new Powerplant;
-		case 's': return new Skyscraper;
+		case eHouse: return new House;
+		case ePowerPlant: return new Powerplant;
+		case eSkyscraper: return new Skyscraper;
 		default:
 			return NULL;
 	}
