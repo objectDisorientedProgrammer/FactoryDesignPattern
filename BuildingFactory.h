@@ -18,7 +18,7 @@ class BuildingFactory
 public:
     BuildingFactory();
     ~BuildingFactory();
-    Building* createBuilding(char);
+    Building* createBuilding(Building_t);
 };
 
 #endif

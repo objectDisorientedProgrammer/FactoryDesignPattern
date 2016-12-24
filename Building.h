@@ -12,6 +12,11 @@
 using namespace std;
 #include <iostream>
 
+typedef enum
+{
+    eHouse, ePowerPlant, eSkyscraper
+} Building_t;
+
 class Building
 {
 public:
