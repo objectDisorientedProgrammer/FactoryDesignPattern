@@ -3,11 +3,10 @@
 
 CC = g++
 FL = -std=c++11 -ggdb
-
 EXEC = factory
 
 all:
-	$(CC) $(FL) *.h *.cpp -o $(EXEC)
+	$(CC) $(FL) *.cpp -o $(EXEC)
 
 clean:
-	rm $(EXEC)
+	rm -f $(EXEC)
