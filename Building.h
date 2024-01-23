@@ -9,9 +9,6 @@
 #ifndef BUILDING_H
 #define BUILDING_H
 
-using namespace std;
-#include <iostream>
-
 typedef enum
 {
     eHouse, ePowerPlant, eSkyscraper
