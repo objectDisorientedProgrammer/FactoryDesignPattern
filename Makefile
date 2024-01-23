@@ -8,5 +8,8 @@ EXEC = factory
 all:
 	$(CC) $(FL) *.cpp -o $(EXEC)
 
+run: all
+	./$(EXEC)
+
 clean:
 	rm -f $(EXEC)

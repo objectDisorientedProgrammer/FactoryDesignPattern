@@ -17,7 +17,6 @@ typedef enum
 class Building
 {
 public:
-    Building();
     virtual ~Building() = 0;
     virtual int getSquareFeet() = 0;
 protected:

@@ -5,13 +5,9 @@
 */
 
 #include "Building.h"
-
-Building::Building()
-{
-    this->squareFeet = 0;
-}
+#include <iostream>
 
 Building::~Building()
 {
-    cout << "~Building()" << endl;
+    std::cout << "~Building()" << std::endl;
 }

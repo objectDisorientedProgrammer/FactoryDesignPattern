@@ -6,6 +6,7 @@
  */
 
 #include "BuildingFactory.h"
+#include <cstddef>
 
 BuildingFactory::BuildingFactory() {}
 
