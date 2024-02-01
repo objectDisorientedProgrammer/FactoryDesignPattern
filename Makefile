@@ -4,9 +4,10 @@
 CC = g++
 FL = -std=c++11 -ggdb
 EXEC = factory
+SRC = "src/"
 
 all:
-	$(CC) $(FL) *.cpp -o $(EXEC)
+	$(CC) $(FL) $(SRC)*.cpp -o $(EXEC)
 
 run: all
 	./$(EXEC)
