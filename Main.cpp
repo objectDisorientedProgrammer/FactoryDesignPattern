@@ -7,14 +7,16 @@
 */
 
 #include "Main.h"
+#include <memory>
 
-int main()
+int main(int argc, char *argv[])
 {
     BuildingFactory b;
 
-    // not sure if these b.createBuilding() calls are creating memory leaks or not...
-    cout << "Making a house with " << b.createBuilding(eHouse)->getSquareFeet() << " square feet." << endl;
-    cout << "Making a power plant with " << b.createBuilding(ePowerPlant)->getSquareFeet() << " square feet." << endl;
-    cout << "Making a skyscraper with " << b.createBuilding(eSkyscraper)->getSquareFeet() << " square feet." << endl;
+    for (int i = 0; i < static_cast<int>(eBuildingSize); ++i)
+    {
+        std::unique_ptr<Building> bldng{b.createBuilding(static_cast<Building_t>(i))};
+        cout << "Creating a " << bldng->getSquareFeet() << " square foot " << bldng->getName() << ".\n";
+    }
     return 0;
 }

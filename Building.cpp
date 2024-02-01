@@ -11,3 +11,13 @@ Building::~Building()
 {
     std::cout << "~Building()" << std::endl;
 }
+
+int Building::getSquareFeet()
+{
+    return squareFeet;
+}
+
+std::string Building::getName()
+{
+    return name;
+}

@@ -10,14 +10,5 @@
 Powerplant::Powerplant()
 {
     this->squareFeet = 3460;
-}
-
-Powerplant::~Powerplant()
-{
-    delete this;
-}
-
-int Powerplant::getSquareFeet()
-{
-    return this->squareFeet;
+    this->name = "Powerplant";
 }

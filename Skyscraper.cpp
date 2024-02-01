@@ -10,14 +10,5 @@
 Skyscraper::Skyscraper()
 {
     this->squareFeet = 9001;
-}
-
-Skyscraper::~Skyscraper()
-{
-    delete this;
-}
-
-int Skyscraper::getSquareFeet()
-{
-    return this->squareFeet;
+    this->name = "Skyscraper";
 }

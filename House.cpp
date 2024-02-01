@@ -9,14 +9,5 @@
 House::House()
 {
     this->squareFeet = 1475;
-}
-
-House::~House()
-{
-    delete this;
-}
-
-int House::getSquareFeet()
-{
-    return this->squareFeet;
+    this->name = "House";
 }

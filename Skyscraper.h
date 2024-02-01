@@ -5,8 +5,8 @@
  *      Author: Douglas Chidester
  */
 
-#ifndef SKYSCRAPER_H_
-#define SKYSCRAPER_H_
+#ifndef SKYSCRAPER_H
+#define SKYSCRAPER_H
 
 #include "Building.h"
 
@@ -14,8 +14,6 @@ class Skyscraper : public Building
 {
 public:
     Skyscraper();
-    ~Skyscraper();
-    int getSquareFeet();
 };
 
-#endif /* SKYSCRAPER_H_ */
+#endif /* SKYSCRAPER_H */

@@ -13,8 +13,6 @@ class House : public Building
 {
 public:
     House();
-    ~House();
-    int getSquareFeet();
 };
 
-#endif
+#endif /* HOUSE_H */

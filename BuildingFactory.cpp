@@ -12,7 +12,6 @@ BuildingFactory::BuildingFactory() {}
 
 BuildingFactory::~BuildingFactory()
 {
-    //delete this; // causing seg fault...
 }
 
 Building* BuildingFactory::createBuilding(Building_t code)

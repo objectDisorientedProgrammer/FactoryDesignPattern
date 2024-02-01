@@ -5,8 +5,8 @@
  *      Author: Douglas Chidester
  */
 
-#ifndef POWERPLANT_H_
-#define POWERPLANT_H_
+#ifndef POWERPLANT_H
+#define POWERPLANT_H
 
 #include "Building.h"
 
@@ -14,8 +14,6 @@ class Powerplant : public Building
 {
 public:
     Powerplant();
-    ~Powerplant();
-    int getSquareFeet();
 };
 
-#endif /* POWERPLANT_H_ */
+#endif /* POWERPLANT_H */
