@@ -15,7 +15,10 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Build
-      run: make
+      run: make all
 
     - name: Run
       run: make run
+
+    - name: Clean
+      run: make clean
